@@ -1,5 +1,13 @@
 :root {
-
+    --colour-slate-900: hsl(218, 44%, 22%);
+    --colour-slate-500: hsl(216, 15%, 48%);
+    --colour-slate-300: hsl(212, 45%, 89%);
+    --colour-white: hsl(0, 0%, 100%);
+    --spacing-500: 40px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
 }
 
 *,
@@ -13,4 +21,8 @@
 img,
 svg {
     display: block;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
 }
