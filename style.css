@@ -25,4 +25,57 @@ svg {
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: var(--colour-slate-300);
+    min-height: 100vh;
+    display: grid;
+}
+
+main {
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    align-self: start;
+}
+
+img.qr-code {
+    width: 288px;
+    border-radius: 10px;
+}
+
+.qr-code-component-container {
+    background-color: var(--colour-white);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.qr-code-image-container {
+    padding: var(--spacing-200);
+}
+
+.qr-code-text-container {
+    padding: 0px 32px;
+    display: grid;
+    gap: var(--spacing-200);
+}
+
+p.title {
+    font-weight: var(--font-weight-bold);
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 22px;
+    color: var(--colour-slate-900);
+}
+
+p.description {
+    font-weight: var(--font-weight-regular);
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--colour-slate-500);
 }
